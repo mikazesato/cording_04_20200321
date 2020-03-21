@@ -8,89 +8,89 @@ html * {
 	box-sizing: border-box;
 }
 body {
-	margin: 0 0 0 0;
-	background-color: #eeece9;
+	margin: 0 0 0 0;	/* 余白をゼロに */
+	background-color: #eeece9;	/* 背景色を薄い茶色に */
 }
 .wrapper {
-	margin: 0 auto 0 auto;
-	max-width: 960px;
+	margin: 0 auto 0 auto; /* 余白を左右中央揃えに */
+	max-width: 960px;	/* 最大幅を960pxに */
 }
 h2 {
-	color: #3f5170;
-	font-size: 22px;
-	border-bottom: 3px dotted #3f5170;
+	color: #3f5170;	/* 文字の色を濃い青に */
+	font-size: 22px;	/* 文字の大きさを22pxに */
+	border-bottom: 3px dotted #3f5170;	/* 枠線の太さを3px,ドット,色を濃い青に */
 	margin-top: 20px;
 	margin-right: 0px;
 	margin-bottom: 20px;
-	margin-left: 0px;
+	margin-left: 0px;	/* 上下の余白を20pxに */
 	padding-top: 5px;
-	padding-right: 5px;
+	padding-right: 5px;	
 	padding-bottom: 5px;
-	padding-left: 5px;
+	padding-left: 5px;	/* 要素内余白を左右上下5pxに */
 }
 p {
-	line-height: 1.6;
+	line-height: 1.6;	/* 行の高さを1.5emに */
 }
 a:link {
-	color: #d25833;
+	color: #d25833;	/* 文字の色を薄い赤に */
 }
 a:visited {
-	color: #d25833;
+	color: #d25833;	/* 文字の色を薄い赤に */
 }
 a:hover {
-	color: #e3937a;
+	color: #e3937a;	/* 文字の色をピンクに */
 }
 a:active {
-	color: #ff6a3b;
+	color: #ff6a3b;	/* 文字の色を薄い赤に */
 }
 /* すべてのページに適用 - ヘッダー -  */
 .logo {
-	margin:50px 0 40px 0;
-	line-height: 0;
-	text-align: center;
+	margin:50px 0 40px 0;	/* 上の余白を50px,下の余白を40pxに */
+	line-height: 0;	/* 行の高さをゼロに	*/
+	text-align: center;	/* 行を中央揃えに */
 }
 .nav li {
-	display: inline;
-	list-style-type: none;
-	padding-right: 30px;
+	display: inline;	/* 要素を横並びに */
+	list-style-type: none;	/* マーカーなし */
+	padding-right: 30px;	/* 要素内右余白を30pxに */
 }
 .nav ul {
-	margin: 0 0 0 0;
-	padding: 20px 10px 15px 20px;
-	background-image: url(../images/menu-bg.png);
-	background-repeat: repeat-x;
+	margin: 0 0 0 0;	/* 余白をゼロに */
+	padding: 20px 10px 15px 20px;	/* 要素内余白の上を20px,右を10px,下を15px,左を20pxに */
+	background-image: url(menu-bg.png);	/* 背景画像をmenu-bg.pngに */
+	background-repeat: repeat-x;	/* 背景画像を横方向に繰り返す */
 }
 .nav a:link {
-	color: #3c454d;
-	text-decoration: none;
+	color: #3c454d;	/* 文字の色を暗い青紫に */
+	text-decoration: none;	/* 文字装飾なし */
 }
 .nav a:visited {
-	color: #3c454d;
-	text-decoration: none;
+	color: #3c454d;	/* 文字の色を暗い薄紫に */
+	text-decoration: none;	/* 文字装飾なし */
 }
 .nav a:hover {
-	color: #7b8dac;
-	text-decoration: none;
+	color: #7b8dac;	/* 文字の色を薄い青に */
+	text-decoration: none;	/* 文字装飾なし */
 }
 .nav a:active {
-	color: #5a9bc0;
-	text-decoration: none;
+	color: #5a9bc0;	/* 文字の色を澄んだ青に */
+	text-decoration: none;	/* 文字装飾なし */
 }
 /* すべてのページに適用 - フッター- */
 .footer {
-	background-image: url(../images/footer-bg.png);
-	background-repeat: no-repeat;
-	margin-top: 30px;
-	padding: 80px 15px 20px 15px;
-	font-size: 12px;
-	color: #3f5170;
+	background-image: url(footer-bg.png);	/* 背景画像をfooter-bg.pngに */
+	background-repeat: no-repeat;	/* 背景画像を繰り返さない */
+	margin-top: 30px;	/* 上の余白を30pxに */
+	padding: 80px 15px 20px 15px;	/* 要素内余白の上を80px,右を15px,下を20px,左を15pxに */
+	font-size: 12px;	/* 文字の大きさを12pxに */
+	color: #3f5170;	/* 文字の色を濃い青に */
 }
 
 /* 個別のスタイル */
 /* index.html */
 .keyvisual {
-	margin: 15px 0 0 0;
-}
+	margin: 15px 0 0 0;	/* 上の余白を15pxに */
+}	
 .news-item {
-	margin: 0;
+	margin: 0;	/* 余白をゼロに */
 }
